@@ -1,0 +1,58 @@
+<html>
+	<head>
+		<title>Forms</title>
+	</head>
+
+	<body>
+	<form action="#" method="get">
+		<fieldset>
+			<legend>Your Details:</legend>
+			<label for="username">Name:</label>
+			<input type="text" name="name" id="username"/>
+			<br />
+			<label for="email">Email:</label>
+
+			<input type="email" name="email"/>
+		</fieldset>
+		<br/>
+		<fieldset>
+			<legend>Your Review:</legend>
+			<br/>
+			<label for="choice">How did you hear about us?</label>
+			<select name="choice" id="choice">
+				<option value="google" selected="selected">Google</option>
+				<option value="fb">Facebook</option>
+				<option value="twitter">Twitter</option>
+			</select>
+			<br />
+			<br />
+
+			<label>Would you visit again?</label>
+			<br/>
+			<input type="radio" name="visit" id="yes" value="yes" />
+			<label for="yes">Yes</label>
+			<input type="radio" name="visit" id="no" value="no" />
+			<label for="no">No</label>
+			<input type="radio" name="visit" id="maybe" value="maybe" />
+			<label for="maybe">Maybe</label>
+
+			<br/>
+			<br/>
+			<label for="comment" >Comments</label>
+			<br/>
+			<textarea name="comment" cols='30' id="comment"></textarea>
+
+			<br/>
+			<br/>
+			<input type="checkbox" name="updates" value="update" id="check" checked="checked">
+				
+			<label for="check">Sign me up for email updates</label>
+		
+			<br/>
+			
+			<input type="submit" value="Submit review"/>
+		</fieldset>
+	</form>
+	</body>
+
+</html>
